@@ -63,8 +63,8 @@ void setup()
   // Initialize plotly settings
   plotly.VERBOSE = true; // turn to false to suppress printing over serial
   plotly.DRY_RUN = false; // turn to false when you want to connect to plotly's servers 
-  plotly.username = "procastino"; // your plotly username -- sign up at https://plot.ly/ssu or feel free to use this public account. password of the account is "password"
-  plotly.api_key = "xw23ueojei"; // "public_arduino"'s api_key -- char api_key[10]
+  plotly.username = "xxxxxxx"; // NOME DE USUARIO DE PLOTLY -- sign up at https://plot.ly/ssu or feel free to use this public account. password of the account is "password"
+  plotly.api_key = "yyyyyy"; // CLAVE DE USUARIO DE PLOTLY. "public_arduino"'s api_key -- char api_key[10]
   plotly.timestamp = true; // tell plotly that you're stamping your data with a millisecond counter and that you want plotly to convert it into a date-formatted graph
   plotly.timezone = "Europe/Madrid"; // full list of timezones is here:
   
